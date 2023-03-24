@@ -94,9 +94,9 @@ text_fields    """{
 ### Метрики
 
 Целью задания является предсказание категории товара. Соответственно, надо решить задачу многоклассовой классификации. В качестве метрики для задания выбран [взвешенный F1-score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
-$$
-F_{weighted} = 2 \cdot {P_{weighted} \cdot R_{weighted} \over P_{weighted} + R_{weighted}}
-$$
+
+$$F_{weighted} = 2 \cdot {P_{weighted} \cdot R_{weighted} \over P_{weighted} + R_{weighted}}$$
+
 где
 
 $P_{weighted}$ - взвешенный $Precision$
